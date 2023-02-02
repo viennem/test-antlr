@@ -1,7 +1,7 @@
 grammar myParser;
 
-ID: [a-z]+;
-
 file: 'hello' ID;
+
+ID: [a-z]+;
 
 WHITESPACE: [ \t\r\n]+    -> skip;
